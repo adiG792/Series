@@ -16,10 +16,14 @@ while True:
     elif n <= 2:
         if n == 1:
             print(0)
+            break
         elif n == 0:
             print()
+            break
         elif n == 2:
             print("0, 1")
+            break
         else:
             print("Enter Positive Number !")
             n = eval(input("Enter n: "))
+
